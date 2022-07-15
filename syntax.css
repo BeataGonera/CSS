@@ -1,19 +1,18 @@
+/*conflicts solving*/
 
-h1{
-    font-size: 34px;
-    color: teal;
+#main-content p{
+    color: red;
 }
 
-#content-header{
-    font-size: 18px;
-    color: darkgoldenrod;
+p{
+    color: blue;
 }
 
-span{
-    display: block;
+.test{
+    color: green;
+
 }
 
-.deck{
-    color: coral;
-
+strong{
+    color: green;
 }
