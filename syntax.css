@@ -1,9 +1,9 @@
-/* the important declaration - nothing else can overwrite it*/
+/* targeting multiple elements*/
 
-p{
-    color:red !important;
+p, li, span{
+    font-size: 18px;
+    color: teal;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-#main-content p{
-    color: green;
-}
