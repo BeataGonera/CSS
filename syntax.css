@@ -1,13 +1,19 @@
-#header{
-    position: absolute;
-    top: 0;
-    left: 0;
+
+h1{
+    font-size: 34px;
+    color: teal;
 }
 
-#header h1{
-    font-size: 32px;
+#content-header{
+    font-size: 18px;
+    color: darkgoldenrod;
 }
 
-p{
-    font-size: 12px;
+span{
+    display: block;
+}
+
+.deck{
+    color: coral;
+
 }
