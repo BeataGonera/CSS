@@ -1,5 +1,6 @@
-/* descendants*/
+/* adjacent selectors*/
 
-#main-content > p{
-    color: teal;
+#all-articles h2 + p{
+    color: blue;
 }
+
