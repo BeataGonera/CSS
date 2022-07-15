@@ -1,18 +1,9 @@
-/*conflicts solving*/
-
-#main-content p{
-    color: red;
-}
+/* the important declaration - nothing else can overwrite it*/
 
 p{
-    color: blue;
+    color:red !important;
 }
 
-.test{
-    color: green;
-
-}
-
-strong{
+#main-content p{
     color: green;
 }
