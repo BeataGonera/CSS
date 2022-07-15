@@ -1,6 +1,14 @@
-/* adjacent selectors*/
+/*atribute selectors*/
 
-#all-articles h2 + p{
-    color: blue;
+span[class~="deck"]{
+    color: purple;
 }
 
+/* ~ wez pod uwage nie wazne, co jest po spacji*/
+
+a[href$=pdf]{
+    background-color: yellow;
+}
+a[href^=https]{
+    color: pink;
+}
