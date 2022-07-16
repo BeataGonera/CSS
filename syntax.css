@@ -1,14 +1,13 @@
-/*atribute selectors*/
+/*pseudo classes*/
 
-span[class~="deck"]{
-    color: purple;
+a:hover{
+    color:red;
 }
 
-/* ~ wez pod uwage nie wazne, co jest po spacji*/
-
-a[href$=pdf]{
-    background-color: yellow;
+a:active{
+    color:green;
 }
-a[href^=https]{
-    color: pink;
+
+a:visited{
+    color:purple;
 }
