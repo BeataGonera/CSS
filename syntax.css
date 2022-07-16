@@ -1,15 +1,14 @@
-/*first-of-type*/
+/*nth-child selector*/
 
-article p:first-of-type{
-    color: palevioletred;
-    font-weight: bold;
+li:nth-child(1), li:nth-child(5){
+    font-weight:bold;
 }
 
-article p:last-of-type{
-    color: yellowgreen;
-    font-weight: bold;
-} 
-
-a{
-    text-decoration: none;
+li:nth-child(odd){
+    color: blue;
 }
+
+li:nth-child(even){
+    text-align: center;
+}
+
