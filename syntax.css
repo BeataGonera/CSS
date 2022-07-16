@@ -1,13 +1,15 @@
-/*pseudo classes*/
+/*first-of-type*/
 
-a:hover{
-    color:red;
+article p:first-of-type{
+    color: palevioletred;
+    font-weight: bold;
 }
 
-a:active{
-    color:green;
-}
+article p:last-of-type{
+    color: yellowgreen;
+    font-weight: bold;
+} 
 
-a:visited{
-    color:purple;
+a{
+    text-decoration: none;
 }
