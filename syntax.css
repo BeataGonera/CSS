@@ -4,4 +4,6 @@ article.featured-content{
     color: purple;
 }
 
-/*no space because feature content is not a descendant of article!*/
+ul{
+    list-style-image: url(paski.jpeg);
+}
