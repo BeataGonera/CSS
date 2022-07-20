@@ -1,20 +1,13 @@
-/*block level elements*/
+/*navigation*/
 
-.block{
-
+a{
     padding: 10px;
     margin: 10px;
-    border: 1px solid #000;
-}
-
-/*div is a block level element, it takes the whole width of a page*/
-/*span is an inline element, nie przyjmuje marginesow top and bottom */
-.inline{
-
-    padding: 10px;
-    margin: 10px;
-    border: 1px solid #000;
+    text-decoration: none;
+    background-color: #ccc;
+    border: 1px solid #eee;
+    color: #000;
     display: inline-block;
-
 }
+
 
