@@ -1,13 +1,12 @@
 /*background*/
 
-body{
-    background-image: url(dendelion.jpeg);
-    background-repeat: round;
-}
-
 .static-width{
     width: 300px;
     height: 300px;
-    background-color: #ccc;
+    background-image: url(dendelion.jpeg);
+    background-color: #579375;
+    background-position: 20% 50%;
+    background-size: 200px;
+    background-repeat: no-repeat;
    
 }
