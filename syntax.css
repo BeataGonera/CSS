@@ -4,18 +4,20 @@
     margin: 30px;
     padding: 30px;
     border: 1px solid #000;
+    border-top: 20px dashed purple;
     width: 400px;
     height: 200px;
 }
 
 .boxie{
-    margin: 70px;
-    padding: 60px;
-    border: 10px solid #000;
-    width: 400px;
-    height: 200px;
+    margin: 70px auto;
+    border: 30px solid #000;
+    width: 50%;
+    height: 400px;
 
 }
 /*the browser automatically sets the margin for 1em (of font-size)*/ 
 
 /*each block element places on top of one another*/
+
+/*vertical margin collapse*/
