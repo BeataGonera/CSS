@@ -1,13 +1,25 @@
-/*navigation*/
+/*width and hight*/
 
-a{
-    padding: 10px;
-    margin: 10px;
-    text-decoration: none;
+#main-content div{
     background-color: #ccc;
-    border: 1px solid #eee;
-    color: #000;
-    display: inline-block;
+    margin: 0 0 20px 0;
 }
 
+.static-width{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 30px;
+    /*na skos*/
+}
 
+.percentage-width{
+    width:  70%;
+    height: 50px;
+}
+
+.inline-blocky{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    display: inline-block;
+}
